@@ -22,8 +22,8 @@ This implementation likely uses the LIBRISPEECH dataset, a large collection of a
 
 **Steps:**
 
-(1) git clone -b master https://github.com/Jezidmar/Modified_implementation.git
-(2) rm -rf espnet-Master
+(1) git clone -b master https://github.com/Jezidmar/Modified_implementation.git \\
+(2) rm -rf espnet-Master \\
 (3) tar -xzvf espnet-master_copy.tar.gz
 (4) cd espnet-master_copy/egs2/librispeech_100/asr1/
 (5) pip3 install espnet & pip3 install espnet2
