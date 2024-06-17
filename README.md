@@ -1,29 +1,32 @@
 # GHide
 For paper implementations
 
-STEPS for usage.
-\section{Using a Modified espnet Implementation for ASR}
+## Using a Modified espnet Implementation for ASR
 
 This guide outlines the steps to set up and use a modified espnet implementation for Automatic Speech Recognition (ASR), likely based on the work of Jezid Mar (@Jezidmar).
 
-\subsection{Requirements}
+**Requirements:**
 
-* Git (\url{https://www.git-scm.com/downloads})
-* GNU tar (\url{https://man7.org/linux/man-pages/man1/tar.1.html})
-* Python 3 (\url{https://www.python.org/downloads/})
-* espnet toolkit (\url{https://github.com/espnet})
+* Git (https://www.git-scm.com/downloads)
+* GNU tar (https://man7.org/linux/man-pages/man1/tar.1.html)
+* Python 3 (https://www.python.org/downloads/)
+* espnet toolkit (https://github.com/espnet)
 
-\subsection{Hardware}
+**Hardware:**
 
 A computer with sufficient processing power (CPU and potentially GPU) is recommended for audio processing and deep learning (depending on the model and dataset).
 
-\subsection{Dataset}
+**Dataset:**
 
-This implementation likely uses the LIBRISPEECH dataset, a large collection of audiobooks for speech recognition training (\url{https://openslr.org/resources.php}). You'll need to download this dataset separately.
+This implementation likely uses the LIBRISPEECH dataset, a large collection of audiobooks for speech recognition training (https://openslr.org/resources.php). You'll need to download this dataset separately.
 
-\subsection{Steps}
+**Steps:**
 
-\subsubsection{Clone the Modified Repository}
+1. **Clone the Modified Repository:**
+
+```bash
+git clone -b master [https://github.com/Jezidmar/Modified_implementation.git](https://github.com/Jezidmar/Modified_implementation.git)
+
 
 
 (1) git clone -b master https://github.com/Jezidmar/Modified_implementation.git
