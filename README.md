@@ -66,3 +66,41 @@ pip3 install espnet2  # Install espnet2 (if needed)
 
 # Step 8: Using Multiple GPUs (Optional)
 # ./run.sh --ngpu <number_of_gpus>  # Specify the number of GPUs
+
+
+
+## Using a Modified espnet Implementation for ASR
+
+This guide outlines the steps to set up and use a modified espnet implementation for Automatic Speech Recognition (ASR), likely based on the work of Jezid Mar (@Jezidmar).
+
+**Requirements:**
+
+* Git (https://www.git-scm.com/downloads)
+* GNU tar (https://man7.org/linux/man-pages/man1/tar.1.html)
+* Python 3 (https://www.python.org/downloads/)
+* espnet toolkit (https://github.com/espnet)
+
+**Hardware:**
+
+A computer with sufficient processing power (CPU and potentially GPU) is recommended for audio processing and deep learning (depending on the model and dataset).
+
+**Dataset:**
+
+This implementation likely uses the LIBRISPEECH dataset, a large collection of audiobooks for speech recognition training (https://openslr.org/resources.php). You'll need to download this dataset separately.
+
+**Steps:**
+
+1. **Clone, Prepare, and Run the Recipe:**
+
+   ```bash
+   git clone -b master [https://github.com/Jezidmar/Modified_implementation.git](https://github.com/Jezidmar/Modified_implementation.git)  # Clone the repository
+   rm -rf espnet-Master  # Remove conflicting directory (if necessary)
+   tar -xzvf espnet-master_copy.tar.gz  # Extract pre-downloaded archive (replace with your archive name)
+   pip3 install espnet espnet2  # Install required libraries (adjust based on your needs)
+   cd espnet-master_copy/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
+
+   # Manually edit db.sh to set the LIBRISPEECH download directory path
+   # Open db.sh, locate the download directory line, edit the path, and save the changes.
+
+   ./run.sh  # Run the recipe (assuming run.sh has execute permissions)
+
