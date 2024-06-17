@@ -6,7 +6,7 @@ For paper implementations
 
 
 **Requirements:**
-
+* CUDA (with pytorch compatibility)
 * Git (https://www.git-scm.com/downloads)
 * GNU tar (https://man7.org/linux/man-pages/man1/tar.1.html)
 * Python 3 (https://www.python.org/downloads/)
@@ -33,5 +33,5 @@ This implementation likely uses the LIBRISPEECH dataset, a large collection of a
    # Manually edit db.sh to set the LIBRISPEECH download directory path
    # Open db.sh, locate the download directory line, edit the path, and save the changes.
    ./run.sh  # Run the recipe (assuming run.sh has execute permissions)
-   # There will be some libraries that will need to be installed manually, such as typecheck and sclite but just proceed with installing and re-running script until all works. 
+   # There will be some libraries that will need to be installed manually, such as typecheck,wandb and sclite but just proceed with installing and re-running script until all works. 
 
