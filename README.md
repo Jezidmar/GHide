@@ -24,7 +24,7 @@ This implementation likely uses the LIBRISPEECH dataset, a large collection of a
 
 1. **Clone, Prepare, and Run the Recipe:**
    ```bash
-   git clone -b master [https://github.com/Jezidmar/Modified_implementation.git](https://github.com/Jezidmar/Modified_implementation.git)  # Clone the repository
+   git clone -b master https://github.com/Jezidmar/Modified_implementation.git  # Clone the repository
    rm -rf espnet-Master  # Remove conflicting directory (if necessary)
    tar -xzvf espnet-master_copy.tar.gz  # Extract pre-downloaded archive (replace with your archive name)
    pip3 install espnet espnet2  # Install required libraries (adjust based on your needs)
