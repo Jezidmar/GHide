@@ -34,6 +34,4 @@ This implementation likely uses the LIBRISPEECH dataset, a large collection of a
     - decoder_asr.yaml is in /conf folder
     - modify number of gpus with --ngpu argument
 
-# Step 8: Using Multiple GPUs (Optional)
-# ./run.sh --ngpu <number_of_gpus>  # Specify the number of GPUs
 
