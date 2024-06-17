@@ -40,3 +40,29 @@ git clone -b master [https://github.com/Jezidmar/Modified_implementation.git](ht
     - asr_config.yaml is in /conf folder
     - decoder_asr.yaml is in /conf folder
     - modify number of gpus with --ngpu argument
+
+
+
+
+# Steps 2-4: Download and Extract (assuming pre-downloaded archive)
+rm -rf espnet-Master  # Remove conflicting directory (if necessary)
+tar -xzvf espnet-master_copy.tar.gz  # Extract pre-downloaded archive
+
+# Step 5: Install/Uninstall Espnet (Optional)
+# Choose the lines you need based on your setup:
+pip3 install espnet  # Install espnet
+# pip3 uninstall espnet  # Uninstall espnet (if needed)
+pip3 install espnet2  # Install espnet2 (if needed)
+# pip3 uninstall espnet2  # Uninstall espnet2 (if needed)
+
+# Step 6: Modify `db.sh` Script (Manual Configuration)
+# - Open `db.sh` in a text editor.
+# - Locate the LIBRISPEECH download directory line.
+# - Edit the path to your desired download location.
+# - Save the changes.
+
+# Step 7: Run the Recipe
+./run.sh  # Assuming run.sh has execute permissions
+
+# Step 8: Using Multiple GPUs (Optional)
+# ./run.sh --ngpu <number_of_gpus>  # Specify the number of GPUs
