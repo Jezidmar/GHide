@@ -3,7 +3,7 @@ For paper implementations
 
 ## Using a Modified espnet Implementation for ASR
 
-This guide outlines the steps to set up and use a modified espnet implementation for Automatic Speech Recognition (ASR), likely based on the work of Jezid Mar (@Jezidmar).
+
 
 **Requirements:**
 
