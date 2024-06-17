@@ -10,15 +10,11 @@ For paper implementations
 * Git (https://www.git-scm.com/downloads)
 * GNU tar (https://man7.org/linux/man-pages/man1/tar.1.html)
 * Python 3 (https://www.python.org/downloads/)
-* espnet toolkit (https://github.com/espnet)
 
-**Hardware:**
-
-A computer with sufficient processing power (CPU and potentially GPU) is recommended for audio processing and deep learning (depending on the model and dataset).
 
 **Dataset:**
 
-This implementation likely uses the LIBRISPEECH dataset, a large collection of audiobooks for speech recognition training (https://openslr.org/resources.php). You'll need to download this dataset separately.
+This implementation uses the LIBRISPEECH dataset, a large collection of audiobooks for speech recognition training (https://openslr.org/resources.php). You'll need to download this dataset separately.
 
 **Steps:**
 
