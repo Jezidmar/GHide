@@ -22,16 +22,15 @@ This implementation likely uses the LIBRISPEECH dataset, a large collection of a
 
 **Steps:**
 
-(1) git clone -b master https://github.com/Jezidmar/Modified_implementation.git //
-(2) rm -rf espnet-Master \\
-(3) tar -xzvf espnet-master_copy.tar.gz
-(4) cd espnet-master_copy/egs2/librispeech_100/asr1/
-(5) pip3 install espnet & pip3 install espnet2
-(6) pip3 uninstall espnet & pip3 uninstall espnet2
-(7) Modify db.sh s.t. you set the download directory for LIBRISPEECH dataset
-(8) Run recipe via run.sh. 
-    - asr_config.yaml is in /conf folder
-    - decoder_asr.yaml is in /conf folder
-    - modify number of gpus with --ngpu argument
+1. **Clone, Prepare, and Run the Recipe:**
+   ```bash
+   git clone -b master [https://github.com/Jezidmar/Modified_implementation.git](https://github.com/Jezidmar/Modified_implementation.git)  # Clone the repository
+   rm -rf espnet-Master  # Remove conflicting directory (if necessary)
+   tar -xzvf espnet-master_copy.tar.gz  # Extract pre-downloaded archive (replace with your archive name)
+   pip3 install espnet espnet2  # Install required libraries (adjust based on your needs)
+   cd espnet-master_copy/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
+   # Manually edit db.sh to set the LIBRISPEECH download directory path
+   # Open db.sh, locate the download directory line, edit the path, and save the changes.
+   ./run.sh  # Run the recipe (assuming run.sh has execute permissions)
 
 
