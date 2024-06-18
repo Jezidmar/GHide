@@ -18,6 +18,7 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    git clone  https://github.com/Jezidmar/Modified_implementation.git  # Clone the repository
    pip install espnet  # Install required libraries (adjust based on your needs)
    pip uninstall espnet # Remove exported paths so as to use modified implementation
+   pip install torchaudio nnAudio spafe librosa
    cd espnet/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
    # To install scoring library go to ../espnet/tools/installers and run install_sctk.sh
    # Manually edit db.sh to set the LIBRISPEECH download directory path 
