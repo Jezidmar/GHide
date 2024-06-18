@@ -16,8 +16,8 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
 
    ```bash
    git clone  [https://github.com/Jezidmar/Modified_implementation.git](https://github.com/Jezidmar/Modified_implementation.git)  # Clone the repository
-   pip install espnet espnet2  # Install required libraries (adjust based on your needs)
-   pip uninstall espnet espnet2 # Remove exported paths so as to use modified implementation
+   pip install espnet  # Install required libraries (adjust based on your needs)
+   pip uninstall espnet # Remove exported paths so as to use modified implementation
    cd espnet/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
 
    # Manually edit db.sh to set the LIBRISPEECH download directory path
