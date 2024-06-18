@@ -2,7 +2,7 @@ MAIN_ROOT=$PWD/../../..
 
 export PATH=$PWD/utils/:$PATH
 export LC_ALL=C
-export PYTHONPATH=/hdd/espnet-master_copy/
+export PYTHONPATH=$MAIN_ROOT
 if [ -f "${MAIN_ROOT}"/tools/activate_python.sh ]; then
     . "${MAIN_ROOT}"/tools/activate_python.sh
 else
