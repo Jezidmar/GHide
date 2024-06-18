@@ -15,13 +15,13 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
 1. **Clone, Prepare, and Run the Recipe:**
 
    ```bash
-   git clone -b master [https://github.com/Jezidmar/Modified_implementation.git](https://github.com/Jezidmar/Modified_implementation.git)  # Clone the repository
+   git clone  [https://github.com/Jezidmar/Modified_implementation.git](https://github.com/Jezidmar/Modified_implementation.git)  # Clone the repository
    rm -rf espnet-Master  # Remove conflicting directory (if necessary)
    tar -xzvf espnet-master_copy.tar.gz  # Extract pre-downloaded archive (replace with your archive name)
    pip3 install espnet espnet2  # Install required libraries (adjust based on your needs)
-   cd espnet-master_copy/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
+   cd espnet/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
 
    # Manually edit db.sh to set the LIBRISPEECH download directory path
-   # Open db.sh, locate the download directory line, edit the path, and save the changes.
+   # Edit path.sh file to set your /path/to/espnet
 
    ./run.sh  # Run the recipe (assuming run.sh has execute permissions)
