@@ -19,8 +19,8 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    pip install espnet  # Install required libraries (adjust based on your needs)
    pip uninstall espnet # Remove exported paths so as to use modified implementation
    cd espnet/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
-
-   # Manually edit db.sh to set the LIBRISPEECH download directory path
+   # To install scoring library go to ../espnet/tools/installers and run install_sctk.sh
+   # Manually edit db.sh to set the LIBRISPEECH download directory path 
    # Edit path.sh file to set your /path/to/espnet
    # inside run.sh file, set stage to 1 and configure number of gpus to use.
    ./run.sh  # Run the recipe (assuming run.sh has execute permissions)
