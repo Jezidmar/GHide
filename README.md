@@ -17,7 +17,6 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    ```bash
    git clone  https://github.com/Jezidmar/Modified_implementation.git  # Clone the repository
    pip install espnet  # Install required libraries (adjust based on your needs)
-   pip uninstall espnet # Remove exported paths so as to use modified implementation
    pip install torchaudio nnAudio spafe librosa
    cd espnet/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
    # To install scoring library go to ../espnet/tools/installers and run install_sctk.sh
@@ -26,3 +25,5 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    # Inside asr.sh file configure nj option to the one that suits your config.
    # inside run.sh file, set stage to 1 and configure number of gpus to use.
    ./run.sh  # Run the recipe (assuming run.sh has execute permissions)
+   # After running recipe and reaching STAGE 10, stop the run and run following:  pip uninstall espnet 
+   # Re-run the run.sh script and proceed with steps.
