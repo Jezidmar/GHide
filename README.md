@@ -10,10 +10,6 @@
 
 A computer with sufficient processing power (CPU and potentially GPU) is recommended for audio processing and deep learning (depending on the model and dataset).
 
-**Dataset:**
-
-This implementation likely uses the LIBRISPEECH dataset, a large collection of audiobooks for speech recognition training (https://openslr.org/resources.php). You'll need to download this dataset separately.
-
 **Steps:**
 
 1. **Clone, Prepare, and Run the Recipe:**
