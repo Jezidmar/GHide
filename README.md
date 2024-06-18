@@ -5,7 +5,6 @@
 * Git (https://www.git-scm.com/downloads)
 * GNU tar (https://man7.org/linux/man-pages/man1/tar.1.html)
 * Python 3 (https://www.python.org/downloads/)
-* espnet toolkit (https://github.com/espnet)
 
 **Hardware:**
 
