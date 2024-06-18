@@ -15,7 +15,7 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
 1. **Clone, Prepare, and Run the Recipe:**
 
    ```bash
-   git clone  [https://github.com/Jezidmar/Modified_implementation.git](https://github.com/Jezidmar/Modified_implementation.git)  # Clone the repository
+   git clone  https://github.com/Jezidmar/Modified_implementation.git  # Clone the repository
    pip install espnet  # Install required libraries (adjust based on your needs)
    pip uninstall espnet # Remove exported paths so as to use modified implementation
    cd espnet/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
