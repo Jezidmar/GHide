@@ -17,7 +17,7 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    ```bash
    git clone  https://github.com/Jezidmar/Modified_implementation.git  # Clone the repository
    pip install espnet  # Install required libraries (adjust based on your needs)
-   pip install torchaudio nnAudio spafe librosa
+   pip install torchaudio nnAudio spafe librosa tensorboard wandb
    cd espnet/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
    # To install scoring library go to ../espnet/tools/installers and run install_sctk.sh
    # Manually edit db.sh to set the LIBRISPEECH download directory path 
@@ -27,3 +27,4 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    ./run.sh  # Run the recipe (assuming run.sh has execute permissions)
    # After running recipe and reaching STAGE 10, stop the run and run following:  pip uninstall espnet 
    # Re-run the run.sh script and proceed with steps.
+   # You may need to login to wandb to run recipes. Otherwise, go to /conf/{trial.yaml} and remove lines related to wandb
