@@ -22,5 +22,6 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    # To install scoring library go to ../espnet/tools/installers and run install_sctk.sh
    # Manually edit db.sh to set the LIBRISPEECH download directory path 
    # Edit path.sh file to set your /path/to/espnet
+   # Inside asr.sh file configure nj option to the one that suits your config.
    # inside run.sh file, set stage to 1 and configure number of gpus to use.
    ./run.sh  # Run the recipe (assuming run.sh has execute permissions)
