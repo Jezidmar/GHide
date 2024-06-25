@@ -30,7 +30,7 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    # You may need to login to wandb to run recipes. Otherwise, go to /conf/{trial.yaml} and remove lines related to wandb
 
 
-Varying
+///
    **Modify features used for extraction:**
    ```bash
    /espnet2/layers/log_mel.py  # Here are the feature classes
