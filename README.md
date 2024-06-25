@@ -13,7 +13,7 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
 **Steps:**
 
 1. **Clone, Prepare, and Run the Recipe:**
-
+   
    ```bash
    git clone  https://github.com/Jezidmar/Modified_implementation.git  # Clone the repository
    pip install espnet  # Install required libraries (adjust based on your needs)
@@ -28,3 +28,9 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    # After running recipe and reaching STAGE 10, stop the run and run following:  pip uninstall espnet 
    # Re-run the run.sh script and proceed with steps.
    # You may need to login to wandb to run recipes. Otherwise, go to /conf/{trial.yaml} and remove lines related to wandb
+
+
+Varying
+   **Modify features used for extraction:**
+   /espnet2/layers/log_mel.py  # Here are the feature classes
+           /asr/frontend/default.py # Here one can change the features to extract by modifying DefaultFrontend class 
