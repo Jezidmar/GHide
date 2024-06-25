@@ -32,6 +32,6 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
 
 Varying
    **Modify features used for extraction:**
-    ```bash
+   ```bash
    /espnet2/layers/log_mel.py  # Here are the feature classes
            /asr/frontend/default.py # Here one can change the features to extract by modifying DefaultFrontend class 
