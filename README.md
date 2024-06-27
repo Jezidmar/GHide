@@ -32,15 +32,10 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
 
 ///
 
-   **Modify features used for extraction:**
+   **Modify features used for extraction and install scoring library:**
    ```bash
    /espnet2/layers/log_mel.py  # Here are the feature classes
    /espnet2/asr/frontend/default.py # Here one can change the features to extract by modifying DefaultFrontend class
-
-
-///
-   **Install sctk scoring library:**
-   ```bash
-   git clone https://github.com/kaldi-asr/kaldi.git  # Here are the feature classes
-   cd kaldi/tools
+   git clone https://github.com/kaldi-asr/kaldi.git  # Clone the kaldi framework
+   cd kaldi/tools # Enter tools directory
    make sph2pipe sclite
