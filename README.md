@@ -17,6 +17,8 @@ A computer with sufficient processing power (CPU and potentially GPU) is recomme
    ```bash
    git clone  https://github.com/Jezidmar/Modified_implementation.git  # Clone the repository
    pip install espnet  # Install required libraries (adjust based on your needs)
+   sudo apt-get install flac
+   sudo apt-get install sox
    pip install torchaudio nnAudio spafe librosa tensorboard wandb
    cd espnet/egs2/librispeech_100/asr1/  # Navigate to the recipe directory
    # To install scoring library go to ../espnet/tools/installers and run install_sctk.sh
